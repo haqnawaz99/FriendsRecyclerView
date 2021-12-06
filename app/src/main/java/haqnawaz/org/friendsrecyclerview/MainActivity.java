@@ -29,9 +29,13 @@ public class MainActivity extends AppCompatActivity {
         Friends f4 = new Friends(5,"Shahid", 1980, "Karachi",R.drawable.c);
         Friends f5 = new Friends(6,"Zia",1987,"Faisalabad ",R.drawable.a);
         Friends f6 = new Friends(7,"Badar", 1980, "Rawalpindi",R.drawable.d);
-        Friends f7 = new Friends(8,"Hashim",1987,"Lahore",R.drawable.b);
+        Friends f7 = new Friends(8,"Hashim",1997,"Karachi",R.drawable.b);
+        Friends f8 = new Friends(8,"Salman",1980,"Quetta",R.drawable.c);
+        Friends f9 = new Friends(8,"Rizwan",1982,"Kasur",R.drawable.d);
+        Friends f10 = new Friends(8,"Junaid",1977,"Islamabad",R.drawable.a);
+        Friends f11 = new Friends(8,"Waseem",1967,"Rawalpindi",R.drawable.b);
 
-        friendsList.addAll(Arrays.asList(new Friends[]{f0,f1,f2,f3,f4,f5,f6,f7,}));
+        friendsList.addAll(Arrays.asList(new Friends[]{f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11}));
         recyclerView = findViewById(R.id.myRecyclerView);
 
         recyclerView.setHasFixedSize(true);

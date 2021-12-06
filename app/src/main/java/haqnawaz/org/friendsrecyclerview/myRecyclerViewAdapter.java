@@ -32,7 +32,7 @@ public class myRecyclerViewAdapter extends RecyclerView.Adapter<myRecyclerViewAd
         holder.data=friendsList.get(position);
         holder.textViewFriendName.setText(holder.data.getName());
         holder.textViewdateFriend.setText(String.valueOf(holder.data.getDob()));
-        holder.imageViewFriend.setImageResource(R.drawable.a);
+        holder.imageViewFriend.setImageResource(holder.data.getImageId());
         holder.textViewCity.setText(holder.data.getCity());
     }
 
